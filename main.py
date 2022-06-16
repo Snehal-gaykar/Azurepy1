@@ -42,6 +42,8 @@ def example1():
                 capacity=1,
                 tier='Standard'
             )
+     #Auto Scaling:
+            per_site_scaling = True            
         )
     )
     service_plan = service_plan_async_operation.result()
